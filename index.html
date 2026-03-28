@@ -12,8 +12,8 @@
 <body>
 
   <section class="bg-black w-full min-h-screen text-white flex items-center justify-center px-4">
-    <div class="w-full max-w-xl">
-      <div class="text-center mb-10">
+    <div class="w-full max-w-xl mb-5">
+      <div class="text-center mb-10 mt-12">
         <h2 class="text-yellow-400 text-4xl font-bold mb-3">
           Frontend kursi
         </h2>
@@ -21,26 +21,50 @@
           Chegirma asosida yozilish uchun ro'yxatdan o'ting
         </p>
       </div>
-      
+
       <div class="bg-linear-to-br from-gray-900 to-gray-800 border border-yellow-500 rounded-2xl p-8 shadow-2xl">
-        <p class="text-yellow-400 font-bold mb-4 text-lg">Kursdan nima kutyapsiz?</p>
-        <div class="flex flex-col gap-3">
-          <label class="flex items-center gap-3 cursor-pointer hover:bg-gray-800 p-3 rounded-xl transition">
-            <input type="radio" name="expectation" value="html_css_tailwind_js_react" class="accent-yellow-400" />
-            <span>💻 HTML, CSS, TailwindCSS, JavaScript, React o‘rganish</span>
-          </label>
-          <label class="flex items-center gap-3 cursor-pointer hover:bg-gray-800 p-3 rounded-xl transition">
-            <input type="radio" name="expectation" value="15_projects" class="accent-yellow-400" />
-            <span>📂 15 ta real projectlar bilan ishlash</span>
-          </label>
-          <label class="flex items-center gap-3 cursor-pointer hover:bg-gray-800 p-3 rounded-xl transition">
-            <input type="radio" name="expectation" value="it_jobs_ready" class="accent-yellow-400" />
-            <span>🚀 IT kompaniyalarga ishga tayyorlash</span>
-          </label>
-          <label class="flex items-center gap-3 cursor-pointer hover:bg-gray-800 p-3 rounded-xl transition">
-            <input type="radio" name="expectation" value="any_web_apps" class="accent-yellow-400" />
-            <span>🌐 Istalgan turdagi saytlar va dasturlar yaratish</span>
-          </label>
+        <div class="max-w-4xl mx-auto text-center mb-12">
+          <h2 class="text-3xl font-bold text-yellow-400 mb-4">Kursdan nima kutyapsiz?</h2>
+          <p class="text-gray-400">
+            Sizga faqat o‘qish emas, balki **real natija** beradigan kursni yaratdik. Quyidagi imkoniyatlar bilan
+            kuchayib chiqing:
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+
+          <div
+            class="bg-gray-900 border border-yellow-500 rounded-2xl p-6 hover:scale-105 transition shadow-lg cursor-pointer">
+            <h3 class="text-yellow-400 font-bold mb-2">💻 Zamonaviy texnologiyalar</h3>
+            <p class="text-gray-400 text-sm">
+              HTML, CSS, TailwindCSS, JavaScript va React orqali professional web ilovalarni yaratishni o‘rganasiz.
+            </p>
+          </div>
+
+          <div
+            class="bg-gray-900 border border-yellow-500 rounded-2xl p-6 hover:scale-105 transition shadow-lg cursor-pointer">
+            <h3 class="text-yellow-400 font-bold mb-2">📂 Real loyihalar</h3>
+            <p class="text-gray-400 text-sm">
+              15 ta real loyihalar orqali o‘z portfolioingizni yaratib, amaliy ko‘nikmalarni oshirasiz.
+            </p>
+          </div>
+
+          <div
+            class="bg-gray-900 border border-yellow-500 rounded-2xl p-6 hover:scale-105 transition shadow-lg cursor-pointer">
+            <h3 class="text-yellow-400 font-bold mb-2">🚀 Ishga tayyorlash</h3>
+            <p class="text-gray-400 text-sm">
+              IT kompaniyalarga ishga tayyorlanasiz, intervyu va real ish tajribasi bilan.
+            </p>
+          </div>
+
+          <div
+            class="bg-gray-900 border border-yellow-500 rounded-2xl p-6 hover:scale-105 transition shadow-lg cursor-pointer">
+            <h3 class="text-yellow-400 font-bold mb-2">🌐 Istalgan turdagi ilovalar</h3>
+            <p class="text-gray-400 text-sm">
+              Siz istalgan turdagi saytlar, web ilovalar va dasturlarni mustaqil yaratishni o‘rganasiz.
+            </p>
+          </div>
+
         </div>
         <form class="space-y-4 pt-5">
           <input
@@ -58,9 +82,6 @@
           </button>
         </form>
       </div>
-
-      
-
     </div>
   </section>
 
