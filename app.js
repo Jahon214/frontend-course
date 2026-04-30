@@ -1,6 +1,6 @@
 // Telegram form submisson
-let TOKEN = '8630387025:AAGxhoJaHtfVx-Oc6dB9p1rlJM8MS_x_Pa0'
-let CHAT_ID = '2060481412'
+let TOKEN = '8609804626:AAEgSpZFU5RyfaNJ4yUgv8qC1D6aoOrrWAo'
+let CHAT_ID = '8720791832'
 
 
 let form = document.querySelector('#contactForm')
